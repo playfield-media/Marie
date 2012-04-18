@@ -319,6 +319,8 @@ body, input, textarea {
 	font-weight: 300;
 	line-height: 1.625;
 }
+
+
 body {
 	background: #e2e2e2;
 }
@@ -330,6 +332,8 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
 }
+
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -501,7 +505,7 @@ a:hover {
 ----------------------------------------------- */
 
 #branding {
-	border-top: 2px solid #bbb;
+	border-top: 5px solid #ec720f;
 	padding-bottom: 10px;
 	position: relative;
 	z-index: 9999;
@@ -516,6 +520,8 @@ a:hover {
 	font-weight: bold;
 	line-height: 36px;
 	text-decoration: none;
+	background-color: red;
+	background: url(images/gist_logo.png) no-repeat;
 }
 #site-title a:hover,
 #site-title a:focus,
@@ -605,9 +611,9 @@ a:hover {
 #access li:hover > a,
 #access a:focus {
 	background: #f9f9f9; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -moz-linear-gradient(#F60 , #e5e5e5);
+	background: -o-linear-gradient(#F60 , #F60 );
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#F60 )); /* Older webkit syntax */
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	color: #373737;
 }
@@ -1091,7 +1097,7 @@ article.format-status .entry-content {
 	padding: 3.5em 0 0;
 }
 .singular .entry-title {
-	color: #000;
+	color:#F60;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
