@@ -7,7 +7,7 @@
 .serif,
 cite,
 blockquote,
-h1,
+h1 { color:#F99;}
 h2,
 h3,
 h4,
@@ -44,7 +44,7 @@ a:visited {
 	color: #F99;
 }
 a:hover,a:active {
-	color:#F9C;
+	color:#666;
 }
 
 .post-content ul,
@@ -110,46 +110,59 @@ body {
 	background: #fff;
 }
 	#header .container {
-		padding-top: 80px;
+		padding-top: 0px;
 		padding-bottom: 40px;
 	}
 		#title {
 			position: relative;
-			height: 80px;
+			height: 140px;
+			
+			
 		}
-			#logo,
+			#logo {
+				height:250px;
+				width:250px;
+				background-image:url(images/wordpress_mt_logo_1.png);
+				background-repeat:no-repeat;
+				margin-left:15px;
+				
+			}
+			
 			#tagline {
 				position: absolute;
 				bottom: 0;
-			}
-			#logo {
-				left: 0;
-				font-size: 72px;
-				line-height: 72px;
-				letter-spacing: 0;
-			}
-			#tagline {
-				font-size: 18px;
+				font-size: 12px;
 				right: 0;
 				line-height: 36px;
 			}
+			
 			#header-image.container {
 				padding: 0;
 			}
+	
+	
 	#nav-primary {
-		clear: both;
-		width: 100%;
-		padding: 0 10px;
+	clear: both;
+	width: 100%;
+	/*padding: 0 10px;*/
+	font-size:18px;
 	}
 		#nav-primary ul,
 		#nav-primary li {
 			list-style: none;
 		}
 			#nav-primary a {
-				float: left;
-				display: block;
-				padding: 0 10px;
+		float: left;
+		display: block;
+		padding: 0 12px;
+		border-right-width: 2px;
+		border-right-style: solid;
+		border-right-color:#666;
 			}
+			
+
+
+			
 	#widget-header {
 		clear: both;
 	}
@@ -192,7 +205,7 @@ body {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		background: #a9a9a9;
-		background: rgba(225,225,225,.75);
+		background: rgba(225,225,225,.90);
 		border-top: 1px #696969 solid;
 	}
 		#footer-content {
